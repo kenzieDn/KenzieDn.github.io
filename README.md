@@ -1,4 +1,3 @@
-```markdown
 # Portfolio Website
 
 This repository contains the code for my data analytics portfolio website. The website showcases my skills, projects, and experience in data analytics, including detailed project pages with descriptions, visuals, and links.
