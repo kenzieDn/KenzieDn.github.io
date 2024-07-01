@@ -94,6 +94,3 @@ Feel free to reach out to me for any inquiries or collaborations:
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for more details.
-```
-
-Replace the placeholders such as `yourusername`, `your.email@example.com`, and `[Your LinkedIn Profile](https://www.linkedin.com/in/yourprofile)` with your actual information. After you've filled in the details, save this content in a `README.md` file in your project directory.
