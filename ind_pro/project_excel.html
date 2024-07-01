@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <title>Excel Coffee Sales - Mckenzie Njoku</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <header>
+        <nav id="navbar" class="navbar">
+            <ul class="left">
+                <li><a href="#">Mckenzie Njoku</a></li>
+            </ul>
+            <ul class="right">
+                <li><a href="/index.html#home" class="nav-link">Home</a></li>
+                <li><a href="/index.html#projects" class="nav-link">Projects</a></li>
+                <li><a href="/index.html#about" class="nav-link">About</a></li>
+                <li><a href="resume.pdf" class="nav-link" target="_blank">Resume</a></li>
+                <li><a href="/index.html#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="project-hero" id="excel-coffee-sales">
+        <div class="hero-content">
+            <h1>Excel Coffee Sales</h1>
+            <p>Data visualization and analysis on coffee sales.</p>
+        </div>
+    </section>
+
+    <section class="project-details">
+        <h2>Project Summary</h2>
+        <p>This project involves using Excel to visualize and analyze coffee sales data. The goal is to extract meaningful insights to help improve sales strategies and customer targeting. Tools used include Excel for data cleaning, manipulation, and visualization. The dashboard features a timeline for selecting a time period, two bar charts, three slicers, and one main line chart.</p>
+
+        <h2>Process</h2>
+        <p>1. Data Collection: The data was collected from various sources, including sales records, customer feedback, and market research reports.<br>
+        2. Data Cleaning: The data was cleaned to remove any inconsistencies, duplicates, and errors. I utilized the XLOOKUP formula to match new columns created in the main sheet with data in other sheets.<br>
+        3. Data Analysis: Various Excel functions and formulas were used to analyze the data, including pivot tables, XLOOKUP, TRIM and data validation.<br>
+        4. Data Visualization: Charts and graphs were created to visualize the trends and patterns in the data. The visualization features a timeline to select a time period, two bar charts, three slicers, and one main line chart. The slicers include size, roast type, and loyalty card, while the timeline uses the order date. The visualizations show total sales over time in the line chart, sales by country, and the top 5 customers in bar charts.</p>
+
+        <h2>Challenges and Solutions</h2>
+        <p>One major challenge was handling missing data. This was addressed by using Excel's data validation and conditional formatting features to identify and fill in the gaps. Another challenge was ensuring the accuracy of the data analysis, which was mitigated by cross-verifying the results with multiple Excel functions. The XLOOKUP formula was extensively used to match new columns in the main sheet with other sheets. A minor challenge was ensuring the dashboard remained user-friendly despite the complexity of the data. Achieved by using clear and interactive visual elements.</p>
+
+        <h2>Outcome and Impact</h2>
+        <p>The project successfully identified key sales trends and customer preferences, leading to a more targeted marketing strategy and increased sales. Future improvements include automating data collection and integrating the analysis with other business intelligence tools.</p>
+    </section>
+
+    <div class="project-images">
+        <h3>Project Images</h3>
+        <div class="image-gallery">
+          <img src="/ss/Screenshot 2024-06-30 180014.png" alt="Image Description 1">
+          <img src="/ss/Screenshot 2024-06-30 180432.png" alt="Image Description 2">
+          <img src="/ss/Screenshot 2024-06-30 180631.png" alt="Image Description 3">
+        </div>
+      </div>
+      
+
+    <footer id="contact">
+        <div class="contact">
+            <h3>Get In Touch!</h3>
+            <a href="https://github.com/mckenzienjoku"><img src="/github-mark-white.png" alt="GitHub"></a>
+            <a href="https://www.linkedin.com/in/mckenzienjoku"><img src="/In-White-72.png" alt="LinkedIn"></a>
+            <a href="mailto:mckenzienjoku@gmail.com"><img src="/Gmail_Logo_64px.png" alt="Email"></a>
+        </div>
+    </footer>
+
+    <script>
+        window.addEventListener('scroll', function() {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('solid-nav');
+            } else {
+                navbar.classList.remove('solid-nav');
+            }
+        });
+    </script>
+</body>
+</html>
